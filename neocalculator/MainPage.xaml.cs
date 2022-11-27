@@ -30,7 +30,7 @@ public partial class MainPage : ContentPage
             CalculatorDisplay.FontSize = 100;
         }
         //if they divide by zero when backspacing set it to 0
-        else if (CalculatorDisplay.Text == "is it 5?")
+        else if (CalculatorDisplay.Text == "it's not 5")
         {
             CalculatorDisplay.Text = "0";
             CalculatorDisplay.FontSize = 100;
@@ -397,7 +397,8 @@ public partial class MainPage : ContentPage
         {
             if (secondNum == 0)
             {
-                CalculatorDisplay.Text = "is it 5?";
+                CalculatorDisplay.FontSize = 100;
+                CalculatorDisplay.Text = "it's not 5";
             }
             else
             {

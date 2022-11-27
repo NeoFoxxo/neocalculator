@@ -4,7 +4,7 @@
              x:Class="neocalculator.MainPage">
 
     <StackLayout>
-        <Label x:Name="CalculatorDisplay" Text="0" FontSize="100" HorizontalTextAlignment="Start"/>
+        <Label x:Name="CalculatorDisplay" Text="0" FontSize="69" HorizontalTextAlignment="Start"/>
         <Button Text="⌫" FontSize="50" TextColor="Black" BackgroundColor="DarkGray" WidthRequest="100" HorizontalOptions="End" Margin="10" Clicked="Backspace_Clicked"></Button>
 
         <Grid RowDefinitions="*,*,*,*,*" ColumnDefinitions="*,*,*,*" RowSpacing="40" ColumnSpacing="5" Margin="0,-60">
@@ -25,7 +25,7 @@
 
             <Button Text="0" BackgroundColor="DarkGrey" TextColor="black" FontSize="50" Grid.Row="4" Grid.Column="1" HeightRequest="90" Clicked="Digit0_Clicked"></Button>
             <Button Text="=" BackgroundColor="DarkGrey" TextColor="black" FontSize="50" Grid.Row="4" Grid.Column="4" HeightRequest="90" Clicked="Equals_Clicked"></Button>
-            <Button Text="Clear" BackgroundColor="DarkGrey" TextColor="black" FontSize="28.7" Grid.Row="4" Grid.Column="0" HeightRequest="90" Clicked="Clear_Clicked"></Button>
+            <Button Text="Clear" BackgroundColor="DarkGrey" TextColor="black" FontSize="24" Grid.Row="4" Grid.Column="0" HeightRequest="90" Clicked="Clear_Clicked"></Button>
             <Button Text="÷" BackgroundColor="DarkGrey" TextColor="black" FontSize="50" Grid.Row="4" Grid.Column="2" HeightRequest="90" Clicked="Divide_Clicked"></Button>
 
         </Grid>
